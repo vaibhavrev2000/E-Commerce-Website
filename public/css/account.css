@@ -1,0 +1,59 @@
+/*
+=======
+Auth
+=======
+*/
+
+.account {
+  margin: 4rem auto;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container form {
+  width: 35rem;
+  padding: 3rem;
+  box-shadow: var(--large-shadow);
+}
+
+.form-container .form-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.form-container label {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.form-container input {
+  padding: 1rem 1.2rem;
+  margin-top: 5px;
+  border-radius: 2px;
+  box-shadow: var(--small-shadow);
+}
+
+.form-container .login-submit {
+  margin-top: 1rem;
+}
+
+.form-container .form-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-container #login-btn,
+.form-container #register-btn {
+  padding: 0.8rem 2rem;
+  margin: 1rem 0;
+}
+
+.form-container a {
+  font-size: 1.3rem;
+}
